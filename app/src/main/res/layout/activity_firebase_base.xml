@@ -13,31 +13,29 @@
     tools:context="com.pixplicity.firebasedemo.MainActivity">
 
     <Button
-        android:id="@+id/btn_first"
+        android:id="@+id/btn_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="First"/>
+        android:text="Send"/>
 
     <Button
-        android:id="@+id/btn_second"
+        android:id="@+id/btn_update"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Second"/>
+        android:text="Update"/>
 
-    <Button
-        android:id="@+id/btn_third"
-        android:layout_width="wrap_content"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_student_list"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Third"/>
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
-    <Button
-        android:id="@+id/btn_forth"
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Fourth"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>
