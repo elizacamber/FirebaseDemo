@@ -6,9 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
 /**
  * Useful Links :
  * https://www.firebase.com/docs/android/guide/retrieving-data.html
@@ -29,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Button firstBtn = (Button) findViewById(R.id.btn_first);
         Button secondBtn = (Button) findViewById(R.id.btn_second);
         Button thirdBtn = (Button) findViewById(R.id.btn_third);
-        Button forthBtn = (Button) findViewById(R.id.btn_forth);
+        Button fourthBtn = (Button) findViewById(R.id.btn_fourth);
 
         firstBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,10 +53,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        forthBtn.setOnClickListener(new View.OnClickListener() {
+        fourthBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ForthOptionActivity.class);
+                Intent intent = new Intent(MainActivity.this, FourthOptionActivity.class);
                 startActivity(intent);
             }
         });

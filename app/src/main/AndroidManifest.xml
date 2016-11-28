@@ -23,7 +23,7 @@
         </activity>
         <activity android:name=".ThirdOptionActivity">
         </activity>
-        <activity android:name=".ForthOptionActivity">
+        <activity android:name=".FourthOptionActivity">
         </activity>
     </application>
 

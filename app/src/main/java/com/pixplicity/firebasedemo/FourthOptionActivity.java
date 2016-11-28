@@ -1,20 +1,13 @@
 package com.pixplicity.firebasedemo;
 
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
-import android.widget.Button;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 
-import java.util.List;
+public class FourthOptionActivity extends BaseFirebaseActivity {
 
-public class ForthOptionActivity extends BaseFirebaseActivity {
-
-    private static final String TAG = ForthOptionActivity.class.getSimpleName();
+    private static final String TAG = FourthOptionActivity.class.getSimpleName();
     private FirebaseRecyclerAdapter<Student, StudentViewHolder> mFirebaseAdapter;
 
     @Override
